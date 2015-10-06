@@ -1,0 +1,23 @@
+{
+  "name" : "panda::watcher",
+  "source-url" : "",
+  "perl" : "v6",
+  "build-depends" : [ ],
+  "provides" : {
+    "panda::watcher" : "lib/panda/watcher.pm6"
+  },
+  "depends" : [
+      "HTTP::Tinyish",
+      "JSON::Faster",
+      "Log::Minimal",
+      "DBIish",
+      "Template::Mojo",
+      "git://github.com/tokuhirom/p6-Crust.git"
+  ],
+  "description" : "blah blah blah",
+  "test-depends" : [ ],
+  "version" : "*",
+  "authors" : [
+    "moznion"
+  ]
+}
